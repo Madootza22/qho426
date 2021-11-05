@@ -1,5 +1,10 @@
-book = input("What type of book is this? ")
-if book == "adventure":
-  print("I like adventure books!")
+# Ask user for the type of book 
+print("What type of book is this?")
+book_type = input() 
 
-print("Finished reading book!")  
+# Determine if the book is an adventure book
+if (book_type == "adventure"):
+    print("\nI like adventure books!")
+
+# Display message
+print("\nFinished reading book.")  
