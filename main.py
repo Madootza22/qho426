@@ -22,10 +22,10 @@ def run():
         response = input()
 
         if (response == "a"):
-            run_block_a()
+          run_block_a()
         elif (response == "q"):
-            break
+          break
         else:
-            print("Invalid option! Please try again.")
+          print("Invalid option! Please try again.")
 
 run()
