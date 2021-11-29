@@ -1,11 +1,12 @@
 #Define function
 def likelihood():
   likelihoods = (50, 38, 27, 99, 4)
-  #return min(likelihoods)
-  return max(likelihoods)
+  return min(likelihoods), max(likelihoods)
 
 def run():
-  #print(f"Minimum likelihood of falling: {likelihood()}%")
-  print(f"Maximum likelihood of falling: {likelihood()}%")
+  probabilities = likelihood()
+  print(f"Minimum likelihood of falling: {probabilities[0]}%")
+  print(f"Maximum likelihood of falling: {probabilities[1]}%")
+
 
 run()    
