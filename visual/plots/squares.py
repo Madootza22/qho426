@@ -8,7 +8,7 @@ def small():
 def medium():
   x = [2, 2, 5, 5, 2]
   y = [2, 5, 5, 2, 2]
-  plt.plot(x, y, 'g--s')
+  plt.plot(x, y, 'r--s')
   
 def large():
   x = [1, 1, 6, 6, 1]
