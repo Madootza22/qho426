@@ -23,6 +23,7 @@ def run():
   plt.plot(values[0], values[1], "y--s")
   plt.xlabel("x values")
   plt.xlabel("y values")
+  plt.title("A line graph!")
   plt.show()
 
 run()      
